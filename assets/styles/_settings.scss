@@ -1,0 +1,46 @@
+/************* FONT **************/
+@font-face {
+    font-family: "Inter";
+    src: url(../fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+@font-face {
+    font-family: "Lexend";
+    src: url(../fonts/LexendDeca-VariableFont_wght.ttf);
+}
+
+$font1: Inter;
+$font2: Lexend; 
+
+/**************** Color ****************/
+
+$mainBG: hsl(233, 47%, 7%);
+$cardBG: hsl(244, 38%, 16%);
+$accent: hsl(277, 64%, 61%);
+
+$white1: hsl(0, 0%, 100%);
+$white2: hsla(0, 0%, 100%, 0.75);
+$white3: hsla(0, 0%, 100%, 0.6);
+
+/*************** Parametre généraux ****************/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 15px;
+    background: $mainBG;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $white1;
+    position: relative;
+}
+
+.attribution{
+    position: absolute;
+    bottom: 0;
+}
