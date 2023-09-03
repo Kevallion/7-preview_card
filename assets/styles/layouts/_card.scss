@@ -89,11 +89,11 @@ main {
     .main-right {
       @media screen and (max-width: 600px) {
         min-height: 250px;
-        background: url(/assets/images/image-header-mobile.jpg) center/cover;
+        background: url(../images/image-header-mobile.jpg) center/cover;
         border-radius: 10px 10px 0 0;
       }
 
-      background: url(/assets/images/image-header-desktop.jpg) center/cover;
+      background: url(../images/image-header-desktop.jpg) center/cover;
       width: 100%;
       height: auto;
       position: relative;
