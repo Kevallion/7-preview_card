@@ -140,7 +140,7 @@ main .main-container .main-left .stats p {
   }
 }
 main .main-container .main-right {
-  background: url(/assets/images/image-header-desktop.jpg) center/cover;
+  background: url(../images/image-header-desktop.jpg) center/cover;
   width: 100%;
   height: auto;
   position: relative;
@@ -149,7 +149,7 @@ main .main-container .main-right {
 @media screen and (max-width: 600px) {
   main .main-container .main-right {
     min-height: 250px;
-    background: url(/assets/images/image-header-mobile.jpg) center/cover;
+    background: url(../images/image-header-mobile.jpg) center/cover;
     border-radius: 10px 10px 0 0;
   }
 }
